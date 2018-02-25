@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ABOUT |html template</title>
+    <script>
+        var i=0;
+        var images=[];
+        var time=3000;
+        images[0]='img/1.jpg';
+        images[1]='img/2.jpg';
+        images[2]='img/3.jpeg';
+        images[3]='img/4.jpeg';
+        function changeimage(){
+            document.slide.src =images[i];
+            if(i<images.length -1){
+                i++;
+            }else{
+                i=0;
+            }
+            setTimeout("changeimage()",time);
+        }
+        window.onload=changeimage;
+                
+
+
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container">
+        <header>
+            <img src="img/logo.png" alt="logo" height="50px" width="100px">
+            <span>Company tag line!!</span>
+        </header>
+        <div id="navbar">
+            <center>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+                
+            </nav>
+
+        </center>
+        
+
+        </div>
+    <img name="slide" height="375" width="100%">
+    <div class="about">
+        <center>
+        <b><h1>ADDRESS</h1></b></p>
+        <code>
+            # PLOT NUMBER 123 , NEAR SBI BANK , OPPOSITE ELANTE MALL,<br><br>
+            SECTOR 56-C, INDUSTRIAL PHASE -||, <br><br>
+            CHANDIGARH (PB),<br><br>
+            INDIA.<br><br>
+        <b><h1>CONTACT NO.</h1></b></p>
+        9888369909<br><br>
+        9876858469<br><br>
+        <b><h1>EMAIL</h1></b></p><br><br>
+        rocksinghajay@gmail.com
+        
+
+
+            
+
+        </code>
+            
+        </center>
+        
+    </div>
+    
+</div>
+<footer>
+    <div class="feet">
+            <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+                <hr><br><br>
+               <center><span><b>ALL &copy; RIGHTS ARE RESERVED 2018</b></span></center> 
+
+    </div>
+</footer>
+    
+</div>
+    
+</body>
+</html>

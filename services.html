@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SERVICES |html template</title>
+    <script>
+        var i=0;
+        var images=[];
+        var time=3000;
+        images[0]='img/1.jpg';
+        images[1]='img/2.jpg';
+        images[2]='img/3.jpeg';
+        images[3]='img/4.jpeg';
+        function changeimage(){
+            document.slide.src =images[i];
+            if(i<images.length -1){
+                i++;
+            }else{
+                i=0;
+            }
+            setTimeout("changeimage()",time);
+        }
+        window.onload=changeimage;
+                
+
+
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container">
+        <header>
+            <img src="img/logo.png" alt="logo" height="50px" width="100px">
+            <span>Company tag line!!</span>
+        </header>
+        <div id="navbar">
+            <center>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+                
+            </nav>
+
+        </center>
+        
+
+        </div>
+    <img name="slide" height="375" width="100%">
+    <div class="services">
+        <center>
+            <h1>WEBSITE DEVELOPMENT</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus iste nesciunt repellat harum ad temporibus consectetur aperiam sunt facilis quisquam maiores mollitia ipsa, dolorem delectus minima inventore reprehenderit est excepturi asperiores odit commodi totam cupiditate nam libero? Dicta hic illum, aspernatur omnis alias, rerum ullam veritatis commodi est enim placeat recusandae officiis obcaecati perferendis accusantium sequi aperiam laboriosam minus nihil iste minima optio debitis! Quasi ad iusto accusantium voluptatibus aut, suscipit illo fuga quibusdam deleniti laudantium. Omnis, sunt. Repudiandae vitae harum aliquam placeat voluptate ratione. Corporis fuga consequatur officia necessitatibus laboriosam debitis facere? Blanditiis nesciunt vitae dolores nemo aperiam fuga.</p>
+        </center>
+        <center>
+                <h1>MOBILE DEVELOPMENT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus iste nesciunt repellat harum ad temporibus consectetur aperiam sunt facilis quisquam maiores mollitia ipsa, dolorem delectus minima inventore reprehenderit est excepturi asperiores odit commodi totam cupiditate nam libero? Dicta hic illum, aspernatur omnis alias, rerum ullam veritatis commodi est enim placeat recusandae officiis obcaecati perferendis accusantium sequi aperiam laboriosam minus nihil iste minima optio debitis! Quasi ad iusto accusantium voluptatibus aut, suscipit illo fuga quibusdam deleniti laudantium. Omnis, sunt. Repudiandae vitae harum aliquam placeat voluptate ratione. Corporis fuga consequatur officia necessitatibus laboriosam debitis facere? Blanditiis nesciunt vitae dolores nemo aperiam fuga.</p>
+            </center>
+            <center>
+                    <h1>DESKTOP DEVELOPMENT</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus iste nesciunt repellat harum ad temporibus consectetur aperiam sunt facilis quisquam maiores mollitia ipsa, dolorem delectus minima inventore reprehenderit est excepturi asperiores odit commodi totam cupiditate nam libero? Dicta hic illum, aspernatur omnis alias, rerum ullam veritatis commodi est enim placeat recusandae officiis obcaecati perferendis accusantium sequi aperiam laboriosam minus nihil iste minima optio debitis! Quasi ad iusto accusantium voluptatibus aut, suscipit illo fuga quibusdam deleniti laudantium. Omnis, sunt. Repudiandae vitae harum aliquam placeat voluptate ratione. Corporis fuga consequatur officia necessitatibus laboriosam debitis facere? Blanditiis nesciunt vitae dolores nemo aperiam fuga.</p>
+                </center>
+                <center>
+                        <h1>COULD COMPUTING </h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus iste nesciunt repellat harum ad temporibus consectetur aperiam sunt facilis quisquam maiores mollitia ipsa, dolorem delectus minima inventore reprehenderit est excepturi asperiores odit commodi totam cupiditate nam libero? Dicta hic illum, aspernatur omnis alias, rerum ullam veritatis commodi est enim placeat recusandae officiis obcaecati perferendis accusantium sequi aperiam laboriosam minus nihil iste minima optio debitis! Quasi ad iusto accusantium voluptatibus aut, suscipit illo fuga quibusdam deleniti laudantium. Omnis, sunt. Repudiandae vitae harum aliquam placeat voluptate ratione. Corporis fuga consequatur officia necessitatibus laboriosam debitis facere? Blanditiis nesciunt vitae dolores nemo aperiam fuga.</p>
+                    </center>
+
+    </div>
+    
+</div>
+<footer>
+    <div class="feet">
+            <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="about.html">about us</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+                <hr><br><br>
+               <center><span><b>ALL &copy; RIGHTS ARE RESERVED 2018</b></span></center> 
+
+    </div>
+</footer>
+    
+</div>
+    
+</body>
+</html>
